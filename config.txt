@@ -1,0 +1,36 @@
+Configuração:
+git config --global user.name DanielVianaC
+git config --global user.email daniel.carvalho85@etec.sp.gov.br
+
+npx create-expo-app@latest DMovies --template blank
+
+cd DMovies
+
+// React Navigation
+npm instal @react-navigation/native
+npm instal @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install react-native-gesture-handler 
+
+// Tailwind - NativeWind
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init
+
+// Carousel 
+npm i react-native-reanimated-carousel 
+npx expo install react-native-reanimated
+
+// React native heroicons
+npm i react-native-heroics 
+
+// Gradiente
+npm i expo-linear-grandient 
+
+// Barra Progresso 
+npm i react-native-progress 
+
+// Fetch API - Axios
+npm i axios
+
+// Criar uma conta no site themoviedb.org
