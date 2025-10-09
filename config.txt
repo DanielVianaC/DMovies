@@ -22,7 +22,7 @@ npm i react-native-reanimated-carousel
 npx expo install react-native-reanimated
 
 // React native heroicons
-npm i react-native-heroics 
+npm i react-native-heroicons 
 
 // Gradiente
 npm i expo-linear-grandient 
