@@ -4,7 +4,7 @@ import { createNativeStackNavigation } from 'react-navigation/native-stack'
 import HomeScreen from '../screens/HomeScreen';
 import { StackScreen } from 'react-native-screens';
 
-export default function appNavigation() {
+export default function AppNavigation() {
   return (
     <NavigationContainer>
         <StackActions.Navigator>
